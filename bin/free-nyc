@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'free_nyc'
+require_relative '../lib/free_nyc'
 
 Free_NYC::CLI.new.call
